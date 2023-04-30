@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  FailedView.swift
 //  SwiftUI-Movie_App
 //
 //  Created by Fadli M on 30/04/23.
@@ -7,16 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    
+struct FailedView: View {
     var body: some View {
-        MovieListScreen()
+        Image("placeholder")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    
+struct FailedView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        FailedView()
     }
 }
